@@ -1,0 +1,7 @@
+version: '3.9'
+
+services:
+  go-redis:
+    image: "redis:latest"
+    ports:
+      - "6379:6379"
